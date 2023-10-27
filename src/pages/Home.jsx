@@ -32,9 +32,9 @@ const Home = () => {
     <div className='container-fluid'>
         <Navbar />
         <div className='row'>
-            <div className='col-md-4'></div>
-            <div className='col-md-4' style={{color:'green'}}><h1 style={{textAlign:'justify'}}>FEDERAL COLLEGE OF FORESTRY, JOS</h1><h4 className='text-center'>Student Transcript</h4></div>
-            <div className='col-md-4'></div>
+            <div className='col-md-2'></div>
+            <div className='col-md-8 ' style={{color:'green'}}><h1 className='text-center' style={{textAlign:'justify'}}>FEDERAL COLLEGE OF FORESTRY, JOS</h1><h4 className='text-center'>Student Transcript</h4></div>
+            <div className='col-md-2'></div>
         </div>
         {students && students.map((item,index)=>(
         <div className='container row mt-3'>
